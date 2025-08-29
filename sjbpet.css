@@ -1,0 +1,52 @@
+/*
+   New Perspectives on XML
+   Tutorial 1
+   Tutorial Assignment
+   
+   Filename: sjbpet.css
+
+   This file contains styles used in the sjbpet.xml file.
+*/
+products {
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12pt; 
+}
+message {
+   display: block;
+   width: 400px; 
+   color: blue; 
+   text-align: center;
+   font-size: 10pt; 
+   border: 3px solid blue; 
+   background-color: ivory;
+   margin: 10px; 
+   padding: 15px;
+}
+product {
+   display: block;
+   color: red;
+   margin: 20px;
+}
+productName	{
+   font-size: 16pt; 
+   color: blue;
+   font-weight: bold;
+}
+price {
+   display: inline-block; 
+   font-weight: bold;
+   color: red;
+   font-family: Times New Roman, Times, Serif;
+   margin-left: 20px;
+}
+manufacturer, description {
+   display: block;
+   font-family: Times New Roman, Times, Serif;
+   margin-left: 20px;
+}
+productItems {
+   display: block; 
+   color: black;
+   margin-left: 35px;
+}  

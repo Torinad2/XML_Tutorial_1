@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/css" href="sjbpet.css" ?>
+<!-- This document contains data on SJB Pet Boutique 
+custom orders for the past week  
+-->
+<!DOCTYPE products PUBLIC "-//SJB Boutique//DTD PRODUCTS 1.0//EN"
+         "http://www/sjpetboutique.com/DTDs/product1.0.dtd">
+
+<customOrders>
+   <order>
+      <customer>
+         <name>
+            <firstName>John</firstName>
+            <lastName>Taylor</lastName>
+         </name>
+         <address>
+            <addressLine1>123 Main Street</addressLine1>
+            <city>Monona</city>
+            <state>WI</state>
+            <zip>53716</zip>
+         </address>
+      </customer>
+      <productNumber>12345</productNumber>
+      <quantity>2</quantity>
+      <unitPrice currency="USD">15.50</unitPrice>
+      <salePrice currency="USD">25.00</salePrice>
+   </order>
+   <order>
+      <customer>
+         <name>
+            <firstName>Lisa</firstName>
+            <lastName>Viking</lastName>
+         </name>
+         <address>
+            <addressLine1>234 State Street</addressLine1>
+            <city>Madison</city>
+            <state>WI</state>
+            <zip>53703</zip>
+         </address>
+      </customer>
+      <productNumber>23456</productNumber>
+      <quantity>1</quantity>
+      <unitPrice currency="USD">35.00</unitPrice>
+      <salePrice currency="USD">55.00</salePrice>
+   </order>
+</customOrders>

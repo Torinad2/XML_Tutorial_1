@@ -1,0 +1,66 @@
+/*
+   New Perspectives on XML
+   Tutorial 1
+   Review Assignment
+   Filename: resale.css
+
+   This file contains styles used in the resale.xml file.
+*/
+
+resale_products {
+   display: block; 
+   border: 3px solid black; 
+   font-family: Arial, Helvetica, Sans-serif; 
+   width: 450px; 
+   margin: 5px;
+   padding-bottom: 5px;
+}        	 
+title {
+   display: block; 
+   width: 400px;   
+   font-size: 18pt;
+   margin-left: 20px;
+}
+subtitle {
+   display: block; 
+   width: 400px;  
+   font-size: 14pt; 
+   font-style: italic;
+   margin-left: 20px;
+}
+condition {
+   font-size: 10pt; 
+   color: blue; 
+   text-align: right; 
+   margin-left: 20px; 
+   margin-top: 10px;
+}
+description {
+   display: inline-block; 
+   width: 400px;  
+   font-size: 14pt; 
+   color: blue; 
+   border-bottom: 2px solid blue;
+   padding-top: 15px; 
+   margin-left: 20px;
+}
+originalPrice, salePrice, commission {
+   display: list-item; 
+   font-family: Times New Roman, Times, Serif; 
+   font-size: 12pt; 
+   list-style-type: square; 
+   color: green; 
+   margin-left: 50px;
+}
+message {
+   display: block; 
+   width: 400px; 
+   font-family: Times New Roman, Times, Serif;
+   font-size: 9pt; 
+   color: red; 
+   border-top: 2px solid blue;
+   padding-top: 5px; 
+   margin-left: 20px; 
+   margin-top: 15px;
+}
+      
