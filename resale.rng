@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://example.com/sjbpetboutique/resale" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="resale_products">
+            <element name="title">
+                <text/>
+            </element>
+            <element name="subtitle">
+                <text/>
+            </element>
+            <oneOrMore>
+                <element name="product">
+                    <element name="description">
+                        <text/>
+                    </element>
+                    <element name="condition">
+                        <data type="NCName"/>
+                    </element>
+                    <element name="price">
+                        <element name="originalPrice">
+                            <text/>
+                        </element>
+                        <element name="salePrice">
+                            <text/>
+                        </element>
+                    </element>
+                    <element name="commission">
+                        <text/>
+                    </element>
+                </element>
+            </oneOrMore>
+            <element name="message">
+                <text/>
+            </element>
+        </element>
+    </start>
+</grammar>
